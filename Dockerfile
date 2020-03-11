@@ -1,4 +1,4 @@
-FROM node:12-slim
+FROM node:12-buster-slim
 
 ARG NODE_ENV
 ENV NODE_ENV=${NODE_ENV}
